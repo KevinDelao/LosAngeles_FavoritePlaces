@@ -29,29 +29,5 @@ Project was created with:
 
 ### Homepage
 
-
-
-### New Book
-
- 
-### Edit Book
-
-### Borrow Book
-
-
-### Return Book
-
-### Fine Payment
-
-### Student List
-
-### Register Student
-
-### Edit Student
-
-### Borrowed Books
-
-### Error Handling
-
 ## Setup
 
