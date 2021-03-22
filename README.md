@@ -13,17 +13,14 @@ A simple project that implements both the google maps API and Wikipedia API to s
 * [Setup](#setup)
 
 ## Introduction
-
+This project was a fun way for me to gain experience with working with API's and to learn to manage API's with Javascript. Additionally, I always wanted to create a project where I could share some of my favorite places in Los Angeles. 
 	
 ## Technologies
-Project was created with:
-* Java JDK 11
-* HTML
-* CSS
-* MYSQL
-* Thymeleaf
-* Spring REST, Spring MVC
-* IDE: IntelliJ Community Edition (2020)
+Project was created using:
+* Javascript
+* Google Maps API
+* Wikipedia API
+* IDE: Visual Studio Code
 
 ## Site
 
