@@ -28,4 +28,4 @@ Project was created using:
 ### Homepage
 
 ## Setup
-
+To run this project properly, it is reccomended to download the Go Live Extension from Visual Studio Code.
