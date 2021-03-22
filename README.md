@@ -14,7 +14,8 @@ A simple project that implements both the google maps API and Wikipedia API to s
 
 ## Introduction
 This project was a fun way for me to gain experience with working with API's and to learn to manage API's with Javascript. Additionally, I always wanted to create a project where I could share some of my favorite places in Los Angeles. 
-	
+## General info	
+
 ## Technologies
 Project was created using:
 * Javascript
