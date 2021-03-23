@@ -33,13 +33,13 @@ lolongitude of the location. Many of the UI elements from Google Maps were remov
 make the maps display as simple as possible. The map is able to be dragged to see around the map, but the zoom and street view features were hidden for simplicity. The
 zoom of the map is fixed at 11 to make it easy to all the markers at once.
 <br>
-<img src="images/image1_wiki.png" width="400"/>
+<img src="images/image1_wiki.png" width="600"/>
 ### Hover Information
 Each marker has an event associated with it when a mouse cursor hovers over it. When a cursor hovers over the marker a window with a name of the locations will be displayed.
 Additionally, using the Wikipedia API the location will searched and the information from Wikipedia about the location will be displayed below the map. The information from Wikipedia
 is shown as a brief summary and the link to the Wikipedia page can be accessed by clicking on the title card or clicking on ther underlined link.
 <br>
-<img src="images/image2_wiki.png" width="400"/>
+<img src="images/image2_wiki.png" width="600"/>
 ## Setup
 To run this project properly, it is reccomended to download the Go Live Server Extension from Visual Studio Code in order to easily run and create a server from the project. A Google Maps API key is also needed to properly run and display Google maps.
 For information on how to obtain an API key and pricing options available (Google Maps is no longer free) follow the link below
