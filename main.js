@@ -12,9 +12,9 @@ function initMap()
     //in this case it is Culver City
     var options = {
         center: { lat: 34.0211224, lng: -118.3964665 },
-        zoom: 11.9,
-        minZoom:11.9,
-        maxZoom:11.9,
+        zoom: 11,
+        minZoom:11,
+        maxZoom:11,
         draggable: true,
         streetViewControl:false,
         zoomControl:false,
@@ -66,6 +66,19 @@ function initMap()
         {
             location:{lat:34.0689, lng:-118.4452},
             content: 'UCLA'
+        },
+        {
+            location:{lat:34.1184, lng:-118.3004},
+            content: 'Griffith Observatory'
+        },
+        {
+            location:{lat:34.0739, lng:-118.2400},
+            content: 'Dodger Stadium'
+            
+        },
+        {
+            location:{lat:34.0082, lng:-118.4145},
+            content: "Tito's Tacos"
         }
     ]
     //loop to add markers in array
