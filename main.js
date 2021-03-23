@@ -1,15 +1,10 @@
-function goWiki(term) {
 
-      //let term = userInput.value();
-      let url = searchUrl + term;
-      return url;
-    
-  }
 function initMap() 
 {
 
     // Map option, this sets the map to a certain location
     //in this case it is Culver City
+    // here various features in Google Maps can be turned off or on
     var options = {
         center: { lat: 34.0211224, lng: -118.3964665 },
         zoom: 11,
@@ -25,21 +20,10 @@ function initMap()
     //New Map, creates it based on options location
     map = new google.maps.Map(document.getElementById("map"), options)
 
-    //listen for clicks on map, uses map object above
-    //each click calls add Marker function
-    //not saved, need database for that
-    // google.maps.event.addListener(map,"click",(event)=>{
-    //     //add marker
-    //     addMarker({location:event.latLng});
-    // })
-    //custom icons
-
-
-    //~Add Markers to Array
+    //Add Markers to Array based on lat and long
     let MarkerArray = [ 
         {
             location: { lat: 34.0099, lng: -118.4960},
-            // imageIcon: "https://img.icons8.com/nolan/2x/marker.png",
             content: 'Santa Monica Pier'
         },
         {
@@ -81,36 +65,38 @@ function initMap()
             content: "Tito's Tacos"
         }
     ]
-    //loop to add markers in array
+    //loop to add markers in array to map
     for (let i = 0; i < MarkerArray.length; i++) {
         addMarker(MarkerArray[i]);
     }
 
+    //this function will contain functionality for the markers
     function addMarker(property) 
     {
        
+        //sets location based on lat and long from array
         const marker = new google.maps.Marker({
             position: property.location,
             map: map,
         });
 
-        // Check for custom Icon
-
+        //if want to use custom icon for the markers will be done here
         if (property.imageIcon) {
             // set image icon
             marker.setIcon(property.imageIcon)
         }
 
+        //this if statement relates to event handling for the markers
         if (property.content) 
         {
-
-           
+            //used h4 to make the display window small
             temp = "<h4>"+property.content+"</h4>"
             const detailWindow = new google.maps.InfoWindow({
                 
                 content: temp
             });
 
+            //if mouse hovers over marker then display info window and search name with Wikipedia
             marker.addListener("mouseover", () => {
                 detailWindow.open(map, marker);
                 handleSubmit(property.content)

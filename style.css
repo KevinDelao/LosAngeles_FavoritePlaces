@@ -85,7 +85,7 @@ a {
         transform: translateY(0);
     }
 }
-
+/* change map size */
 #map {
     height: 400px;
     width: 100%;
