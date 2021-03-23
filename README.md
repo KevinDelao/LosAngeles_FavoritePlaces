@@ -37,7 +37,7 @@ zoom of the map is fixed at 11 to make it easy to all the markers at once.
 ### Hover Information
 Each marker has an event associated with it when a mouse cursor hovers over it. When a cursor hovers over the marker a window with a name of the locations will be displayed.
 Additionally, using the Wikipedia API the location will searched and the information from Wikipedia about the location will be displayed below the map. The information from Wikipedia
-is shown as a brief summary and the link to the Wikipedia page can be accessed by clicking on the title card or clicking on ther underlined link.
+is shown as a brief summary and the link to the Wikipedia page can be accessed by clicking on the title card or clicking on the underlined link.
 <br>
 <img src="images/image2_wiki.png" width="600"/>
 ## Setup
